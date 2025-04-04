@@ -21,7 +21,7 @@ console.log(numeroaleatorio)
         console.log("El numero que colocaste es menor al qe pense")
     }else if(numerocolocado = numeroaleatorio){
 
-        console.log("felicidades lo adivinaste")
+        alert("felicidades lo adivinaste")
 
     }
     
