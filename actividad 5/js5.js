@@ -11,14 +11,14 @@ console.log(numeroaleatorio)
 
 
 
-do {
+ do{
 
-    numerocolocado = parseInt(prompt("ingresa el numero que tengo en la mente (1 - 50)"))
+    numerocolocado = parseInt(prompt("ingresa el numero que piensas que pienso del 1 al 50"))
 
     if (numerocolocado > numeroaleatorio) {
         console.log("El numero que colocaste el mayor al que pense")
     } else if (numerocolocado < numeroaleatorio){
-        console.log("El numero que colocaste es menor al que pense")
+        console.log("El numero que colocaste es menor al qe pense")
     }else if(numerocolocado = numeroaleatorio){
 
         console.log("felicidades lo adivinaste")
@@ -27,4 +27,4 @@ do {
     
 
 
-} while (numeroaleatorio !=  numerocolocado)
+}while (numeroaleatorio !=  numerocolocado) 
