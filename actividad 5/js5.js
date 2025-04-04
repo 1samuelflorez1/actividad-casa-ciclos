@@ -5,7 +5,7 @@ alto o bajo. Utiliza un do while para repetir los intentos.
 */
 
 let numeroaleatorio = Math.floor(Math.random() * 50) + 1;
-let numerocolocado;
+let numerocolocado = parseInt(prompt("ingresa el numero que piensas que pienso del 1 al 50"))
 
 console.log(numeroaleatorio)
 
@@ -13,18 +13,14 @@ console.log(numeroaleatorio)
 
  do{
 
-    numerocolocado = parseInt(prompt("ingresa el numero que piensas que pienso del 1 al 50"))
-
     if (numerocolocado > numeroaleatorio) {
-        console.log("El numero que colocaste el mayor al que pense")
-    } else if (numerocolocado < numeroaleatorio){
-        console.log("El numero que colocaste es menor al qe pense")
-    }else if(numerocolocado = numeroaleatorio){
-
-        alert("felicidades lo adivinaste")
-
+        numerocolocado = parseInt(prompt("El numero que colocaste el menor al que pense"))
+    } else{
+        numerocolocado = parseInt(prompt("El numero que colocaste es mayor al qe pense"))
     }
     
 
 
-}while (numeroaleatorio !=  numerocolocado) 
+}while (numeroaleatorio !=  numerocolocado)
+    
+    alert("felicidades, adivinaste, VAMOOS JODEEER")
